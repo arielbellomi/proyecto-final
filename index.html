@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerveceria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cerveceria.css" </head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BAR/CERVECERIA </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Novedades</a>
+                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#">Contacto</a>
+                    </div>
+            </div>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div id="home" class="row align-items-center hero">
+            <div class="col-lg-3 offset-lg-2">
+                <p>Bajada</p>
+                <h1>Titulo Principal</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quidem dolore harum vero odio totam
+                    quibusdam repellendus aliquid autem ducimus reiciendis enim libero dolorum sapiente quae, saepe
+                    magnam obcaecati. Sit!</p>
+            </div>
+        </div>
+    </div>
+    <!--Novedades-->
+    <div class="row my-3">
+        <div id="novedades" class="col-md-5 offset-md-2">
+            <h2>Novedades</h2>
+            <ul class="lista-novedades">
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/novedades01.jpg">
+                        Nuevas recetas 1</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/novedades01.jpg">
+                        Nuevas recetas 2</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/novedades01.jpg">
+                        Nuevas recetas 3</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/novedades01.jpg">
+                        Nuevas recetas 4</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/novedades01.jpg">
+                        Nuevas recetas 5</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    </div> <!--cierra novedades-->
+    <div class="col-md-3 my-3">
+        <div class="rounded py-5 testimonios">
+            <h2 class="text-center">Testimonios</h2>
+            <div <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonios">
+                            <h5>La mejor cerveza !!!</h5>
+                            <p>Pablo de villa gesell.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-item active">
+                            <div class="testimonios">
+                                <h5>Excelente atencion.</h5>
+                                <p>Daniela de Mataderos.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-item active ">
+                                <div class="testimonios">
+                                    <h5>Riquisima la comida y la cerveza</h5>
+                                    <p>Juan de Lugano.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--cierra testimonios-->
+    </div><!--cierra novedades y testimonios-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">TItulo</h1>
+                    <h3>Subtitulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, vero delectus labore provident
+                        modi mollitia fugit veniam libero temporibus? Consectetur cumque inventore ad fuga? Repellat
+                        quis sed maxime suscipit amet!</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Fin modal-->
+    <!--fin de novedades-->
+    <!--Inicio hisoria-->
+    <div id="historia" class="row align-items-center py-4">
+        <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+            <img src="img/historia_1.jpg" alt="historia 1" class="img-fluid">
+
+        </div>
+        <div class="col-lg-2 col-md-3 d-none d-sm-block">
+            <img src="img/historia_2.jpg" alt="historia 2" class="img-fluid">
+
+        </div>
+        <div class="col-12 d-sm-none">
+            <img src="img/historia_3.jpg" alt="historia 3" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-6 mt-sm-0">
+            <h2>Historia</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa ab similique veritatis rem. Incidunt
+                delectus dolor nam cum quas! Odio sit dolore obcaecati vel hic? Sunt error commodi molestiae sit!</p>
+        </div>
+    </div>--<!--cierra div con id historia-->
+    <!--inicio Nosotros-->
+    <div class="nosotros" class="row align-items-stretch my-3 staff py-4">
+        <div class="col-lg-8 offset-lg-2">
+            <h2>Nosotros</h2>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="img/nosotros01.jpg" class="card-img-top" alt="Juana Fuentes">
+                <div class="card-body">
+                    <h5 class="card-title">Juana Fuentes</h5>
+                    <p class="card-text">Es la encargada de recibir y acomodar a los clientes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="img/nosotros02.jpg" class="card-img-top" alt="Roberto Rojas">
+                <div class="card-body">
+                    <h5 class="card-title">Roberto Rojas</h5>
+                    <p class="card-text">Es el encargado de la cocina</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="img/nosotros03.jpg" class="card-img-top" alt="Marcelo escobar">
+                <div class="card-body">
+                    <h5 class="card-title">Marcelo escobar</h5>
+                    <p class="card-text">Se encarga de la caja .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="img/nosotros04.jpg" class="card-img-top" alt="Ariel Mirasol">
+                <div class="card-body">
+                    <h5 class="card-title">Ariel Mirasol</h5>
+                    <p class="card-text">Es el gerente del local.</p>
+                </div>
+            </div>
+        </div>
+    </div><!--fin de nosotros-->
+    <!--comienzo de visitanos-->
+    <div id="conocenos" class="row py-4">
+        <div class="col-md-4 offset-md-2">
+            <h2>Visitanos</h2>
+            <div class="mapa">
+                <iframe src="Joaquín V. González 2384, C1417AQF Monte Castro, Buenos Aires"></iframe>
+
+            </div>
+        </div><!--cierra div con id visitanos-->
+    </div><!--cierra div con id conocenos-->
+
+    <footer>
+        <p class="text-center">Diseñado por Ariel Bellomi</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
